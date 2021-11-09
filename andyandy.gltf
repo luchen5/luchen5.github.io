@@ -1,0 +1,177 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.0)"
+    },
+    "accessors": {
+        "Andy_GEO_mesh_accessor": {
+            "bufferView": "Andy_GEO_mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 1416,
+            "type": "VEC3",
+            "max": [
+                0.08624999970197678,
+                0.20705999433994294,
+                0.05624999850988388
+            ],
+            "min": [
+                -0.08624999970197678,
+                0.0,
+                -0.05624999850988388
+            ]
+        },
+        "Andy_GEO_mesh_accessor_0": {
+            "bufferView": "Andy_GEO_mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 1416,
+            "type": "VEC3",
+            "max": [
+                0.9999809861183167,
+                1.0,
+                0.9999809861183167
+            ],
+            "min": [
+                -0.9999809861183167,
+                -1.0,
+                -0.9999809861183167
+            ]
+        },
+        "Andy_GEO_mesh_accessor_1": {
+            "bufferView": "Andy_GEO_mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 1416,
+            "type": "VEC2",
+            "max": [
+                0.9837139844894409,
+                0.9670720100402832
+            ],
+            "min": [
+                0.010462000034749508,
+                0.016286015510559083
+            ]
+        },
+        "Andy_GEO_mesh_accessor_2": {
+            "bufferView": "Andy_GEO_mesh_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 6912,
+            "type": "SCALAR",
+            "max": [
+                1415.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    },
+    "buffers": {
+        "../../download/8us1c4nsgiu0/8us1c4nsgiu0": {
+            "byteLength": 59136,
+            "type": "arraybuffer",
+            "uri": "../../download/8us1c4nsgiu0/8us1c4nsgiu0.bin"
+        }
+    },
+    "bufferViews": {
+        "Andy_GEO_mesh_view": {
+            "buffer": "../../download/8us1c4nsgiu0/8us1c4nsgiu0",
+            "byteOffset": 0,
+            "byteLength": 16992,
+            "target": 34962
+        },
+        "Andy_GEO_mesh_view_0": {
+            "buffer": "../../download/8us1c4nsgiu0/8us1c4nsgiu0",
+            "byteOffset": 16992,
+            "byteLength": 16992,
+            "target": 34962
+        },
+        "Andy_GEO_mesh_view_1": {
+            "buffer": "../../download/8us1c4nsgiu0/8us1c4nsgiu0",
+            "byteOffset": 33984,
+            "byteLength": 11328,
+            "target": 34962
+        },
+        "Andy_GEO_mesh_view_2": {
+            "buffer": "../../download/8us1c4nsgiu0/8us1c4nsgiu0",
+            "byteOffset": 45312,
+            "byteLength": 13824,
+            "target": 34963
+        }
+    },
+    "materials": {
+        "DefaultMaterial": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        }
+    },
+    "meshes": {
+        "Andy_GEO_mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "DefaultMaterial",
+                    "indices": "Andy_GEO_mesh_accessor_2",
+                    "attributes": {
+                        "POSITION": "Andy_GEO_mesh_accessor",
+                        "NORMAL": "Andy_GEO_mesh_accessor_0",
+                        "TEXCOORD_0": "Andy_GEO_mesh_accessor_1"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "8us1c4nsgiu0.obj": {
+            "children": [
+                "default",
+                "Andy_GEO"
+            ]
+        },
+        "default": {},
+        "Andy_GEO": {
+            "meshes": [
+                "Andy_GEO_mesh"
+            ]
+        }
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "8us1c4nsgiu0.obj"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}
