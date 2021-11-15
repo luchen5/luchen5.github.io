@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.example.dummyarwebview",
+               "sha256_cert_fingerprints": ["D2:6D:77:AA:55:6C:1A:2B:4C:18:C5:F9:0D:38:45:1C:10:EE:49:07:B0:FA:6D:02:0D:5E:42:14:8D:E2:6A:B4"] }
+}]
